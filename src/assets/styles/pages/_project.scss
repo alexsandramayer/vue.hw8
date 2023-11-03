@@ -1,0 +1,96 @@
+.banner__project{
+    min-height: 356px;
+    background: url(../images/project_page_img/project__bg.png) center center / cover no-repeat;
+}
+
+.categories{
+    margin-top: 200px;
+    &__btns{
+        margin: 0 auto;
+        max-width: 880px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 11px;
+        border-radius: 18px;
+        border: 1px solid #CDA274;
+    }
+    &__btn{
+        display: block;
+        padding: 26px 66px;
+        border-radius: 18px;
+        background-color: $colorBase;
+        border: none;
+        outline: none;
+        color: #292F36;
+        text-align: center;
+        font-family: Jost;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 125%; 
+        letter-spacing: 0.36px;
+        cursor: pointer;
+        &:hover{
+            background: #CDA274;
+        }
+    }
+    &__block{
+        margin-top: 61px;
+        display: grid;
+        grid-template-columns: repeat(2, 585px);
+        grid-auto-rows: minmax(616px, auto);
+        grid-gap: 40px 30px;
+    }
+    &__item{
+        position: relative;
+        &_star{
+            position: absolute;
+            top: 5px;
+            right: 2px;
+        }
+        &_info{
+            margin-top: 24px;
+            height: 70px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &_title{
+            color: $colorTitle;
+            font-family: DM Serif Display;
+            font-size: 25px;
+            font-weight: 400;
+            line-height: 125%; 
+            letter-spacing: 0.5px;
+        }
+        &_subtitle{
+            margin-top: 4px;
+            color: $colorSubtitle;
+            font-family: Jost;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 150%; 
+            letter-spacing: 0.22px;
+        }
+    }    
+}
+
+.btn-active {
+    color: #FFFFFF;
+    background-color: #CDA274;
+}
+
+.pagination{
+    max-width: 268px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 51px;
+    margin-bottom: 104px;
+    &__ul{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        
+    }
+}

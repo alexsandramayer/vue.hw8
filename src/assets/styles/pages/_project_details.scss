@@ -1,0 +1,40 @@
+.banner__projectdetails{
+    min-height: 356px;
+    background: url(../images/project_details_img/project_details__bg.png) center center / cover no-repeat;
+}
+.projectdetails{
+    position: relative;
+    &__content{
+        max-width: 658px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 200px;
+        
+    }
+    &__title{
+        
+        color: $colorTitle;
+        font-family: DM Serif Display;
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 125%; 
+        letter-spacing: 1px;
+    }
+    &__text{
+        margin-top: 11px;
+        max-width: 658px;
+        color: $colorText;
+        font-family: Jost;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0.22px;
+    }
+    
+}
+.zoom_icon{
+    width: 132px;
+    height: 132px;
+    position: absolute;
+}

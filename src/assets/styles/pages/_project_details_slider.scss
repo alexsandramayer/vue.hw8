@@ -1,0 +1,22 @@
+.swiper {
+	margin-top: 100px;
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-slide {
+	overflow: hidden;
+}
+.swiper-zoom-container > img{
+	width: 1200px;
+	height: 800px;
+	border-radius: 70px;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+	bottom: var(--swiper-pagination-bottom, 8px);
+    top: var(--swiper-pagination-top, auto);
+    left: 0;
+    width: 100%;
+}
+
